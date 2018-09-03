@@ -3,7 +3,7 @@ from keras.models import load_model
 from keras.applications.inception_resnet_v2 import preprocess_input
 import numpy as np
 import keras.backend as K
-from dataset.utils.shared import checkpoint_url
+from .shared import checkpoint_url
 
 K.clear_session()
 x = load_model(checkpoint_url)

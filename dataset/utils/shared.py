@@ -3,8 +3,8 @@ from os import makedirs
 from os.path import expanduser, join
 
 # Default folders
-dir_root = join(expanduser('~'), 'flowchroma')
-dir_originals = join(dir_root, 'original')
+dir_root = join('/home/ubuntu/flowchroma')
+dir_originals = join(dir_root, 'originals')
 dir_sampled = join(dir_root, 'sampled')
 dir_resnet_images = join(dir_root, 'resized_resnet_images')
 dir_resnet_csv = join(dir_root, 'resnet_csv_records')
@@ -14,7 +14,7 @@ dir_test = join(dir_root, 'test')
 dir_test_results = join(dir_root, 'test_results')
 dir_frame_lab_records = join(dir_root, 'frame_lab_records')
 dir_frame_resnet_records = join(dir_root, 'frame_resnet_records')
-checkpoint_url = join(dir_root,"updated_resnet_v2 .h5")
+checkpoint_url = join(dir_root,"updated_resnet_v2.h5")
 
 frames_per_video = 3
 default_nn_input_height = 240

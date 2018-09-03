@@ -64,7 +64,7 @@ class Sample:
 
 if __name__ == '__main__':
     import argparse
-    from dataset.utils.shared import dir_originals, dir_sampled, frames_per_video
+    from utils.shared import dir_originals, dir_sampled, frames_per_video
 
     parser = argparse.ArgumentParser(
         description='Sample video files')

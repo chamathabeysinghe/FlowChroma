@@ -5,9 +5,9 @@ from os.path import join
 import cv2
 import numpy as np
 
-from dataset.utils.inception_utils import inception_resnet_v2_predict
-from dataset.utils.resize import resize_pad_frame
-from dataset.utils.shared import resnet_input_height, resnet_input_width
+from utils.inception_utils import inception_resnet_v2_predict
+from utils.resize import resize_pad_frame
+from utils.shared import resnet_input_height, resnet_input_width
 
 
 class ResnetRecordCreator:
@@ -90,7 +90,7 @@ class ResnetRecordCreator:
 
 
 if __name__ == '__main__':
-    from dataset.utils.shared import dir_resnet_images, dir_resnet_csv, dir_sampled, frames_per_video, \
+    from utils.shared import dir_resnet_images, dir_resnet_csv, dir_sampled, frames_per_video, \
         resnet_video_chunk_size, checkpoint_url
     import argparse
 

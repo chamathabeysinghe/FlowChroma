@@ -5,8 +5,8 @@ from multiprocessing import Pool
 import cv2
 import numpy as np
 
-from dataset.utils.resize import resize_pad_frame
-from dataset.utils.shared import dir_sampled, dir_lab_records, default_nn_input_height, default_nn_input_width
+from utils.resize import resize_pad_frame
+from utils.shared import dir_sampled, dir_lab_records, default_nn_input_height, default_nn_input_width
 from skimage import color
 
 import re
