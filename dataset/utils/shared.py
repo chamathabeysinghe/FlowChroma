@@ -3,7 +3,7 @@ from os import makedirs
 from os.path import expanduser, join
 
 # Default folders
-dir_root = join('/home/ubuntu/flowchroma')
+dir_root = join('/home/ubuntu/flowchroma2')
 dir_originals = join(dir_root, 'originals')
 dir_sampled = join(dir_root, 'sampled')
 dir_resnet_images = join(dir_root, 'resized_resnet_images')

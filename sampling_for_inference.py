@@ -4,8 +4,8 @@ import cv2
 from dataset.utils.shared import dir_test, dir_originals
 import random
 
-video_length = 400
-sample_size = 1000
+video_length = 200
+sample_size = 100
 
 def save_sliced_video(input_file, output_file):
     try:
